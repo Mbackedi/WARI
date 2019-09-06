@@ -1,0 +1,12 @@
+composer require server
+composer require profiler
+composer require orm
+composer require maker
+composer require serializer
+composer require annotations
+composer require validator
+composer require security
+composer req api make
+composer require migrations
+composer require form
+composer require friendsofsymfony/rest-bundle
