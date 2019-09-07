@@ -102,7 +102,7 @@ class Transaction
     private $telephonExp;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", nullable=true, length=255)
      */
     private $adresseExp;
 
@@ -112,7 +112,7 @@ class Transaction
     private $numeropieceEXp;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", nullable=true, length=255)
      */
     private $typepieceExp;
 
@@ -132,12 +132,12 @@ class Transaction
     private $telephonBen;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", nullable=true, length=255)
      */
     private $adresseBen;
 
     /**
-     * @ORM\Column(type="bigint")
+     * @ORM\Column(type="bigint", nullable=true)
      */
     private $numeropieceBen;
 

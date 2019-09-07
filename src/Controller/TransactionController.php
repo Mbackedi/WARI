@@ -77,6 +77,7 @@ class TransactionController extends AbstractController
                 $values->getBorneInf();
                 $values->getBorneSup();
                 $values->getValeur();
+
                 if ($montant >= $values->getBorneInf() &&  $montant <= $values->getBorneSup()) {
                     $valeur = $values->getValeur();
                 }
